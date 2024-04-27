@@ -1,6 +1,5 @@
-var arr1 = "john".split('');
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const channel = getChannel(computedAppVersion);
-console.log("0 && 1 = "+(0 && 1));
-const isArray = (arr) => Array.isArray(arr);
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const randomString = () => Math.random().toString(36).slice(2);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
