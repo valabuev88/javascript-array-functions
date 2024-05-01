@@ -1,2 +1,2 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const repositoryRootPath = path.resolve(__dirname, '..');
+const uniqueArr = (arr) => [...new Set(arr)];
+console.log(false == '0');
