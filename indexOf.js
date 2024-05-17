@@ -1,2 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-console.log(false == '0');
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const randomBoolean = () => Math.random() >= 0.5;
