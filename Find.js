@@ -1,1 +1,2 @@
-const toggleBool = () => (bool = !bool);
+const isTabInView = () => !document.hidden;
+const buildOutputPath = path.join(repositoryRootPath, 'out');
