@@ -1,3 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-var arr1 = "john".split('');
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const removeDuplicates = (arr) => [...new Set(arr)];
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
