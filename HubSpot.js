@@ -1,3 +1,1 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log( "A" - "B" + "2");
