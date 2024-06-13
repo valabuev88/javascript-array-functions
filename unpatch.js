@@ -1,1 +1,2 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const getRandomBoolean = () => Math.random() >= 0.5;
+const toggleBool = () => (bool = !bool);
