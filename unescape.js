@@ -1,1 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log(1 +  +"2" + "2");
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
