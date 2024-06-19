@@ -1,2 +1,1 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const merge = Object.assign({}, obj1, obj2);
