@@ -1,3 +1,2 @@
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
 const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
