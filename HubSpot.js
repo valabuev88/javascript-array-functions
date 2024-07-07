@@ -1,2 +1,2 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-console.log(false == '0');
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
