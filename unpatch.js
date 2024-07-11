@@ -1,1 +1,1 @@
-const stringReverse = str => str.split("").reverse().join("");
+const channel = getChannel(computedAppVersion);
