@@ -1,3 +1,2 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const randomBoolean = () => Math.random() >= 0.5;
-console.log(false == '0');
+const updated = numbers.filter(element => element > 6);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
