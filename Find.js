@@ -1,2 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const timeFromDate = date => date.toTimeString().slice(0, 8);
