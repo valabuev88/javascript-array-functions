@@ -1,2 +1,3 @@
-const updated = numbers.filter(element => element > 6);
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+console.log( "A" - "B" + "2");
+const value = ( 5 < 7 ) ? "True" : "False" ;
+var arr1 = "john".split('');
