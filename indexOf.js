@@ -1,3 +1,1 @@
-console.log( "A" - "B" + "2");
-const value = ( 5 < 7 ) ? "True" : "False" ;
-var arr1 = "john".split('');
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
