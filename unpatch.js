@@ -1,2 +1,3 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const results = await Promise.all(resultingPromises);
