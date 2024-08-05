@@ -1,3 +1,1 @@
-const result = await makeHttpRequest(url);
-console.log(false == '0');
-const isArray = (arr) => Array.isArray(arr);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
