@@ -1,1 +1,3 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const channelName = getChannelName(channel);
+const toggleBool = () => (bool = !bool);
+var arr2 = arr1.reverse();
